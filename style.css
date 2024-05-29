@@ -23,8 +23,6 @@ body {
 
 
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -160,6 +158,8 @@ a:hover {
   transform: none;
 }
 
+
+
 /* -------------------------------------------------------------- */
 /* SECTIONS */
 
@@ -175,7 +175,7 @@ section {
   display: flex;
 }
 /* PROFIL SECTION */
-#profil {
+#profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -188,14 +188,15 @@ section {
   margin: auto 0;
   align-self: center; 
   border-radius: 50%; */
+  /* NOT IN USE  */
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   align-self: center; 
-  padding: 0px;
   /* background-color: #e5ddda;  */
 }
+/* Street picture */
 .section__pic-container2 {
   display: flex;
   height: 400px;
@@ -203,7 +204,7 @@ section {
   align-self: center; 
   padding: 0px;
 }
-
+/* Waterfall picture */
 /* border: rgb(53, 53, 53) 0.1rem solid; */
 .profilepic{
   height: 300px;
@@ -259,6 +260,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  padding: 0.5rem;
 }
 /* Button configuration */
 .btn {
@@ -276,7 +278,7 @@ section {
 /* Set button cursor */
 .btn-color-1:hover,
 .btn-color-2:hover{
-  cursor: help;
+  cursor: default;
 }
 /* Set CV-button background color + Contact-button hover */
 .btn-color-1,
